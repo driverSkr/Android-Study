@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="file_provider">com.example.client.fileProvider</string>
+</resources>

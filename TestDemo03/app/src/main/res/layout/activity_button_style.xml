@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+<!--按钮控件-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下面的按钮英文默认大写"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下面的按钮英文区分大小写"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textAllCaps="false"/>
+
+    <!--onClick点击事件，现已废弃，因为xml视图里只因放置静态布局，
+    点击方法因写在java代码中，现使用onClickListener方法-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接获取当前时间"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:onClick="doClick"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里查看按钮的点击结果"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
+
+</LinearLayout>

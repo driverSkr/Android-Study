@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--TextView设置宽度为0dp，则先安排Switch的80dp宽度，等下的宽度全安排
+        给设置了权重的TextView-->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:text="Switch开关："
+            android:layout_gravity="start"/>
+<!--默认的开关按钮-->
+        <Switch
+            android:id="@+id/sw_status"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="start"/>
+
+</LinearLayout>

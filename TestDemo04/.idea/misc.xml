@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1335" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1335" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_act_finish.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_act_receive.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_act_request.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_act_response.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_act_send.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_act_start.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_action_uri.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_jump_first.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_jump_second.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_login_input.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_login_success.xml" value="0.22083333333333333" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_meta_data.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/layout/activity_read_string.xml" value="0.20833333333333334" />
+        <entry key="..\:/androidProject/boGeStudyDemo/TestDemo04/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--自定义-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="first"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutLongLabel="@string/first_long"
+        android:shortcutShortLabel="@string/first_short">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.testdemo04.ActStartActivity"
+            android:targetPackage="com.example.testdemo04"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="second"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutLongLabel="@string/second_long"
+        android:shortcutShortLabel="@string/second_short">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.testdemo04.JumpFirstActivity"
+            android:targetPackage="com.example.testdemo04"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="third"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutLongLabel="@string/third_long"
+        android:shortcutShortLabel="@string/third_short">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.testdemo04.LoginInputActivity"
+            android:targetPackage="com.example.testdemo04"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

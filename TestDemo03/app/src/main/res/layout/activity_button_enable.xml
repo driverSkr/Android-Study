@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--禁用与恢复按钮-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_enable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="启动测试按钮"
+            android:textSize="17sp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/btn_disable"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="禁用测试按钮"
+            android:textColor="#000000"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <!--enable=false可以禁用按钮-->
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试按钮"
+        android:textColor="#888888"
+        android:textSize="17sp"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里查看测试按钮的点击结果"
+        android:textColor="#000000"
+        android:textSize="17sp"/>
+
+</LinearLayout>
