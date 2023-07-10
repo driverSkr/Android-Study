@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestDemo01</string>
+    <string name="hello">Hello,World!</string>
+    <string name="helloToSecond">欢迎来到第二个页面!</string>
+</resources>
